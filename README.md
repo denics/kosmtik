@@ -37,6 +37,16 @@ go to the downloaded directory with ``cd kosmtik``, and run:
 npm install
 ```
 
+#### MacOS X El Capitan
+A few more steps are required in order to install Kosmtik under MacOS X:
+- go to: https://nodejs.org/en/ and install *the latest stable*
+- in case you are running behind a proxy run:
+    
+```
+npm config set proxy http://proxy.company.com:8080
+npm config set https-proxy http://proxy.company.com:8080
+```
+
 ## Update
 
 Obtain changes from repository (e.g. `git pull`)
