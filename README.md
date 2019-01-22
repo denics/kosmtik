@@ -34,6 +34,8 @@ hardly totally up to date with latest release. Ideally, you should run the LTS
 version of Node.js. You can use a Node.js version manager (like
 [NVM](https://github.com/creationix/nvm)) to help.
 
+It is important to note that you need to build Kosmtik using node@6
+
     npm -g install kosmtik
 
 This might need root/Administrator rights. If you cannot install globally
